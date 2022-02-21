@@ -14,8 +14,7 @@ int main()<br>
    // Array of pointers to info struct<br>
     // of size
     head = new info*[size];<br>
-  
-    // Initialize pointer array to NULL<br>
+   // Initialize pointer array to NULL<br>
     for (int i = 0; i < size; ++i) {<br>
         *(head + i) = NULL;<br>
     }<br>
